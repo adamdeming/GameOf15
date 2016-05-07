@@ -401,7 +401,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
             {
             
                 // Creates the tile
-                
+                // Gametile is bugged from conversion of swift code
                 var gameTile = UIButton(type: UIButtonType.System) as! GameTile
                 gameTile.x = r
                 gameTile.y = c
