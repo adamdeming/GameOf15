@@ -2,7 +2,7 @@
 //  Game_of_15Tests.swift
 //  Game of 15Tests
 //
-//  Created by Adam Deming on 7/14/15.
+//  Created by Adam Deming, Asher Dale, Connor Lynn
 //  Copyright (c) 2015 Adam Deming. All rights reserved.
 //
 
