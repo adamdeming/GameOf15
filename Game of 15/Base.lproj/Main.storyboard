@@ -31,25 +31,26 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gDW-QC-oRa">
-                                <rect key="frame" x="117" y="398" width="90" height="30"/>
+                                <rect key="frame" x="117" y="388" width="91" height="49"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="31"/>
-                                <state key="normal" title="Hard">
+                                <state key="normal" title="Insane">
                                     <color key="titleColor" red="0.0" green="0.56847774620000002" blue="0.16441605149999999" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="hard:" destination="wpn-ng-2NO" eventType="touchUpInside" id="nC2-7S-brV"/>
+                                    <action selector="insane:" destination="wpn-ng-2NO" eventType="touchUpInside" id="6x8-0Y-N1C"/>
                                     <segue destination="vXZ-lx-hvc" kind="show" id="WG3-a6-9G1"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cjr-Zr-UaV">
-                                <rect key="frame" x="97" y="252" width="130" height="30"/>
+                                <rect key="frame" x="97" y="242" width="130" height="49"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="31"/>
-                                <state key="normal" title="Insane">
+                                <state key="normal" title="Hard">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="Insane:" destination="wpn-ng-2NO" eventType="touchUpInside" id="746-P2-Svk"/>
+                                    <action selector="hard:" destination="wpn-ng-2NO" eventType="touchUpInside" id="xC1-uc-412"/>
                                     <segue destination="vXZ-lx-hvc" kind="show" id="7O6-qE-d9I"/>
                                 </connections>
                             </button>

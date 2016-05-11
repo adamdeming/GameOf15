@@ -27,11 +27,13 @@ class Main: UIViewController, UIImagePickerControllerDelegate, UINavigationContr
     @IBAction func classic(sender: AnyObject) {
         boardSize = 16
     }
+
     @IBAction func hard(sender: AnyObject) {
         boardSize = 25
     }
-    @IBAction func Insane(sender: AnyObject) {
+
+    @IBAction func insane(sender: AnyObject) {
         boardSize = 36
     }
-
+    
 }
