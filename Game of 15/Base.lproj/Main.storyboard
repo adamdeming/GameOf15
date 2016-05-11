@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="wpn-ng-2NO">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="wpn-ng-2NO">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Main-->
@@ -16,23 +18,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Harvard Summer 2015" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GQY-QF-VXO">
-                                <rect key="frame" x="-8" y="111" width="330" height="94"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Harvard Wreath" translatesAutoresizingMaskIntoConstraints="NO" id="hYH-2u-pRd">
-                                <rect key="frame" x="76" y="213" width="163" height="150"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Created by:      Adam Deming Connor Lynn Asher Dale" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NZI-S1-ulC">
-                                <rect key="frame" x="95" y="359" width="124" height="140"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7tJ-RB-KDy">
-                                <rect key="frame" x="55" y="73" width="50" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7tJ-RB-KDy">
+                                <rect key="frame" x="103" y="124" width="119" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
                                 <state key="normal" title="Classic">
                                     <color key="titleColor" red="1" green="0.040183829109999999" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -42,8 +30,9 @@
                                     <segue destination="vXZ-lx-hvc" kind="show" id="xUB-Oh-bVq"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gDW-QC-oRa">
-                                <rect key="frame" x="140" y="73" width="34" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gDW-QC-oRa">
+                                <rect key="frame" x="117" y="398" width="90" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
                                 <state key="normal" title="Hard">
                                     <color key="titleColor" red="0.0" green="0.56847774620000002" blue="0.16441605149999999" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -53,8 +42,9 @@
                                     <segue destination="vXZ-lx-hvc" kind="show" id="WG3-a6-9G1"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cjr-Zr-UaV">
-                                <rect key="frame" x="207" y="73" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cjr-Zr-UaV">
+                                <rect key="frame" x="97" y="252" width="130" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
                                 <state key="normal" title="Insane">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -63,21 +53,19 @@
                                     <segue destination="vXZ-lx-hvc" kind="show" id="7O6-qE-d9I"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Choose Your Difficulty" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XfZ-vt-YGe">
-                                <rect key="frame" x="38" y="28" width="249" height="21"/>
-                                <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="20"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="7tJ-RB-KDy" firstAttribute="centerX" secondItem="bNx-g4-jwz" secondAttribute="centerX" id="FjV-ys-O2N"/>
+                            <constraint firstItem="cjr-Zr-UaV" firstAttribute="centerX" secondItem="bNx-g4-jwz" secondAttribute="centerX" id="HMG-iy-eEK"/>
+                            <constraint firstItem="7tJ-RB-KDy" firstAttribute="leading" secondItem="bNx-g4-jwz" secondAttribute="leadingMargin" constant="83" id="RQe-Gj-cMh"/>
+                            <constraint firstItem="gDW-QC-oRa" firstAttribute="centerX" secondItem="bNx-g4-jwz" secondAttribute="centerX" id="TSN-PZ-DDw"/>
+                            <constraint firstItem="cjr-Zr-UaV" firstAttribute="leading" secondItem="bNx-g4-jwz" secondAttribute="leadingMargin" constant="77" id="gQf-7Y-omY"/>
+                            <constraint firstItem="gDW-QC-oRa" firstAttribute="leading" secondItem="bNx-g4-jwz" secondAttribute="leadingMargin" constant="97" id="sGK-r1-d3i"/>
+                        </constraints>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="600" height="600"/>
-                    <connections>
-                        <outlet property="harvardLabel" destination="GQY-QF-VXO" id="y4V-hv-hPz"/>
-                        <outlet property="harvardView" destination="hYH-2u-pRd" id="TY4-UG-CmP"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0nL-Om-FWy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -115,9 +103,6 @@
             <point key="canvasLocation" x="208" y="350"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="Harvard Wreath" width="1051" height="1024"/>
-    </resources>
     <inferredMetricsTieBreakers>
         <segue reference="xUB-Oh-bVq"/>
     </inferredMetricsTieBreakers>

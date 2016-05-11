@@ -12,15 +12,6 @@ public var boardSize: Int?
 
 class Main: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
-    
-    @IBOutlet weak var harvardView: UIImageView!
-       
-    @IBOutlet weak var harvardLabel: UILabel!
-    @IBOutlet weak var fifteenGame: UIImageView!
-    
-    @IBOutlet weak var imageView: UIImageView!
-    var newMedia: Bool?
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
