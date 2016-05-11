@@ -2,7 +2,7 @@
 //  Main.swift
 //  Game of 15
 //
-//  Created by Adam Deming on 7/14/15.
+//  Created by Adam Deming, Asher Dale, Connor Lynn
 //  Copyright (c) 2015 Adam Deming. All rights reserved.
 //
 

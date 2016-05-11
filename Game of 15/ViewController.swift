@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  Harvard IOS Game
 //
-//  Created by Adam A. Deming on 7/14/15.
+//  Created by Adam Deming, Asher Dale, Connor Lynn
 //  Copyright (c) 2015 AdamDemingDevelopment. All rights reserved.
 //
 
